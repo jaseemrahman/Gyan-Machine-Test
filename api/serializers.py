@@ -13,5 +13,10 @@ class StudentSerializer(serializers.ModelSerializer):
         model = Student
         fields =  ('id', 'name', 'address','phone','school')
 
+class StudentAddSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Student
+        fields = '__all__'
+
 
 
