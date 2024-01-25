@@ -1,4 +1,4 @@
-# Django API Project
+# Gyan Machine Test
 
 ## Api App
 This Django project consists of two distinct apps: API and Authentication.
